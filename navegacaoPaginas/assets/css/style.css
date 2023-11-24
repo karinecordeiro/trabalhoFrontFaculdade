@@ -1,0 +1,25 @@
+.nav-link{
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+.navbar-nav{
+    margin-left: 10px;
+}
+.logo{
+    color:#2aa58a
+}
+.home{
+    background-color: #fff1f6;
+}
+.sobre{
+    background-color: #f8f8e9;
+}
+.sitemap{
+    background-color: #def5e5;;
+}
+.contato{
+    background-color: #e7e8ff;
+}
+.links{
+    background-color: #f6e3fc;
+}

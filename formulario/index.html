@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <title>Formulário</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <form action="">
+        <label for="usuario">Usuário</label>
+        <input type="text" id="usuario" name="usuario" required> 
+        
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" required>
+
+        <button type="submit">Enviar</button>
+
+        <div id="mensagem">
+            <h3>A senha deve conter:</h3>
+            <p id="minuscula" class="invalido">Uma letra <b>minúscula</b></p>
+            <p id="maiuscula" class="invalido"> Uma letra <b>maiúscula</b></p>
+            <p id="numero" class="invalido">Um <b>número</b></p>
+            <p id="tamanho" class="invalido">No mínimo <b>8 caracteres</b></p>
+        </div>
+    </form>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>

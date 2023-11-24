@@ -1,0 +1,17 @@
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+.item{
+    display: none;
+}
+.item.active{
+    display: block;
+}
+img{
+    width: 250px;
+    height: 150px;
+}

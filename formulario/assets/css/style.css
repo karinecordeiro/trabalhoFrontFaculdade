@@ -1,0 +1,26 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 18px;
+    margin-block: 10px;
+}
+input{
+    width: 45%;
+    height: 35%
+}
+button{
+    margin-top: 1rem;
+    width: 45%;
+}
+.valido {
+    color: rgb(65, 163, 65);
+}
+
+.invalido {
+    color: rgb(190, 46, 46);
+}
